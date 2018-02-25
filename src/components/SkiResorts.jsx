@@ -7,11 +7,11 @@ class App extends Component {
     this.state = {
       skiResorts: [
         {
-          name: 'Livigno',
-          height: '2000 m',
-          price: '1 PLN',
+          name: 'French Alps',
+          height: '3000 m',
+          price: '2 PLN',
           opening_hours: '10:00-20:00',
-          opinion: 'Great place for pros',
+          opinion: 'Great place',
         }
       ],
     }
