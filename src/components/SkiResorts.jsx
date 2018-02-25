@@ -10,8 +10,8 @@ class App extends Component {
           name: 'Livigno',
           height: '2000 m',
           price: '1 PLN',
-          opening_hours: '10:00-20:00',
-          opinion: 'Great place for pros',
+          hours: '10:00-20:00',
+          review: 'Great place for pros',
         }
       ],
     }
@@ -29,10 +29,10 @@ class App extends Component {
             <span className='label'>Price:</span>{resort.price}
           </li>
           <li>
-            <span className='label'>Opening hours:</span>{resort.opening_hours}
+            <span className='label'>Opening hours:</span>{resort.hours}
           </li>
           <li>
-            <span className='label'>Opinion:</span>{resort.opinion}
+            <span className='label'>Opinion:</span>{resort.review}
           </li>
         </ul>
       </li>
